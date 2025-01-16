@@ -1,5 +1,5 @@
 
-# 1. Project Setup
+### 1. Project Setup
 
 Create a new Angular project:
 
@@ -9,7 +9,7 @@ ng new my-routing-app
 cd my-routing-app
 ```
 
-# 2. App Configuration
+### 2. App Configuration
 
 Import routes and add it providers: providerRouter(routes)
 
@@ -28,7 +28,7 @@ export const appConfig: ApplicationConfig = {
 };
 
 ```
-# 3. Component Creation
+### 3. Component Creation
 
 Create components for HomeComponent and AboutComponent:
 
@@ -60,7 +60,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {}
 ```
-# 4. Navigation in Templates
+### 4. Navigation in Templates
 
 Add navigation links to app.component.html:
 
@@ -70,7 +70,7 @@ HTML
 
 <router-outlet></router-outlet>
 ```
-# 5. Run the Application
+### 5. Run the Application
 
 Start the development server:
 
@@ -87,7 +87,7 @@ appRoute.ts: This file configures the routing module with the defined routes.
 <router-outlet>: This directive defines a placeholder in the template where the routed component will be rendered.
 routerLink: This directive creates navigation links that trigger route changes.
 
-# Key Concepts:
+#### Key Concepts:
 
 Route Definitions: Define how URLs map to components.
 Navigation: Triggering route changes to display different components.
